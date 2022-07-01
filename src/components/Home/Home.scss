@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     background-color: #141414;
-    
+
     .logo {
         height: min-content;
         width: 100%;
@@ -26,7 +26,7 @@
         left: 0%;
         top: 0%;
     }
-    
+
     .home {
         background-image: url("../../resources/34d40d96149463.5ea8044941ea5.jpg");
         background-repeat: no-repeat;
@@ -41,8 +41,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        
-        
 
         .name {
             font-family: america;
@@ -55,21 +53,56 @@
             justify-content: center;
             flex-direction: column;
             line-height: 110px;
-            transition: all ease-in 0.5s; 
+            transition: all ease-in 0.5s;
 
-            &:hover{
+
+            &:hover {
                 color: transparent;
-            -webkit-text-stroke: white 1px;
-
+                -webkit-text-stroke: white 1px;
                 background: url(../../resources/enter.jfif);
                 -webkit-background-clip: text;
-                background-position: 0 0 ;
-                animation: name 40s linear infinite ;
+                background-position: 0 0;
+                animation: name 40s linear infinite;
+
+                .nameAfter {
+                    @extend .name,
+                    :hover; // extiendo las propiedades del name hover
+                }
             }
 
+            .nameAfter {
+                position: relative;
+                font-weight: 100px !important;
+
+
+                &::after {
+                    content: "|Front End Developer|";
+                    letter-spacing: 4.5px;
+                    color: #ffffff;
+                    font-family: net;
+                    display: flex;
+                    align-content: center;
+                    align-items: center;
+                    z-index: 10;
+                    font-weight: 100;
+                    line-height: 45px;
+                    font-size: 34px;
+                    position: absolute;
+                    bottom: 80%;
+                    left: 46%;
+                    width: max-content;
+                    -webkit-text-stroke: 0px;
+
+                }
+            }
+
+
+
+
+
             @keyframes name {
-                
-                100%{
+
+                100% {
                     background-position: 2000px 0;
                 }
             }
@@ -77,26 +110,7 @@
 
         }
 
-        .front {
-            letter-spacing: 4.5px;
-            color: #ffffff;
-            font-family: net;
-            display: flex;
-            align-content: center;
-            align-items: center;
-            z-index: 10;
-            font-weight: 100;
-            line-height: 45px;
 
-            .frontContent {
-                padding-right: 100px;
-                padding-left: 100px;
-                position: absolute;
-                left: 550px;
-                top: 275px;
-                font-size: 35px;
-            }
-        }
     }
 }
 

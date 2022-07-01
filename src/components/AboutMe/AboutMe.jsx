@@ -4,15 +4,15 @@ import "./AboutMe.scss";
 function AboutMe() {
   return (
     <div className="containerAboutMe flash">
-      <div className="containerHello">
-        <p className="hello">Hello</p>
-        <a class="fancy" href="#">
+      {/* <div className="containerHello">
+        <p className="hello">Hello</p> */}
+        {/* <a class="fancy" href="#">
           <span class="top-key"></span>
           <span class="text"> MY CV</span>
           <span class="bottom-key-1"></span>
           <span class="bottom-key-2"></span>
-        </a>
-      </div>
+        </a> */}
+      {/* </div> */}
 
       <p className="textAboutMe">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque,

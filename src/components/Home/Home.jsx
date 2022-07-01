@@ -29,12 +29,9 @@ function Home() {
 
         <div className="name ">
           <p>I'M</p>
-          <p>ZOE LANZ</p>
+          <p className="nameAfter">ZOE LANZ</p>
         </div>
 
-        <div className="front">
-          <p className="frontContent">|Front End Developer|</p>
-        </div>
       </div>
 
       <AboutMe />

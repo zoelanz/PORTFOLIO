@@ -1,25 +1,23 @@
-
-
+import ContainerWorks from "../ContainerWorks/ContainerWorks";
+import WorkCard from "../WorkCard/WorkCard";
 import "./Works.scss";
 
 function Works() {
   return (
     <div className="containerWorks">
+      
+      <ContainerWorks>
+        <WorkCard />
+        <WorkCard />
+      </ContainerWorks>
 
-        <div className="containerWorksImg1"> 
-           <div className="workEnterMining"></div>
-           <div className="workZetaele"></div>
-           
-        </div>
-        <div className="containerWorksImg2"> 
-       
-           <div className="workMercedesLlanos"></div>
-           <div className="workMedicinaChina"></div>
-        </div>
-
+      <ContainerWorks>
+        <WorkCard />
+        <WorkCard />
+      </ContainerWorks>
 
     </div>
-  )
+  );
 }
 
-export default Works
+export default Works;
