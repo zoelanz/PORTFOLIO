@@ -1,0 +1,27 @@
+.backgroundHomeGeneral {
+  background-color: #eeeaea;
+  width: 100%;
+}
+
+.backgroundHomeGeneral .backgroundHome {
+  background-image: url("https://i.imgur.com/t9Pq3gQ.jpg");
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: red;
+}
+
+h1 {
+  font-family: rektorak;
+  letter-spacing: 3px;
+  font-size: 85px;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 200px 0;
+}
+/*# sourceMappingURL=Home.css.map */

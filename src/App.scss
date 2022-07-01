@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@1&family=Questrial&family=Six+Caps&display=swap');
+@font-face {
+    font-family: apercu;
+    src: url(../src/resources/fonts/ApercuPro-ExtraLight.ttf);
+  }
+
+
+  @font-face {
+    font-family: voyage1;
+    src: url(../src/resources/fonts/Voyage-Regular.otf);
+  }
+
+
+
+  @font-face {
+    font-family: helvetica;
+    src: url(../src/resources/fonts/HelveticaNowDisplay-Bold.ttf);
+  }
+
+  @font-face {
+    font-family: helveticabold;
+    src: url(../src/resources/fonts//HelveticaNowDisplay-ExtraBold.ttf);
+  }
+
+  @font-face {
+    font-family: net;
+    src: url(../src/resources/fonts/FontsFree-Net-Racing-Catalogue.ttf);
+  }
+
+  @font-face {
+    font-family: america;
+    src: url(../src/resources/fonts/GT\ America\ Bold.ttf);
+  }
+
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-family: apercu;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  html{
+
+    cursor: none;
+  }
+
+
+  .cursor{
+    width: 30px;
+    height: 30px;
+    border: 10px solid #b89b868a;
+    border-radius: 50%;
+    position:absolute;
+    z-index: 15000;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 8px;
+
+    
+}
+
+::-webkit-scrollbar-track {
+  background-color: #202020;
+
+}
+
+::-webkit-scrollbar-thumb {
+        background-color: #B89B86;
+    border-radius: 15px;
+}
+
+::selection{
+  background-color: #B89B86;
+  color: #ffffff;
+}
