@@ -1,9 +1,11 @@
 .containerWorks {
     width: 100%;
+    height: min-content;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 2%;
+    padding: 10%;
+    gap: 50px;
 }

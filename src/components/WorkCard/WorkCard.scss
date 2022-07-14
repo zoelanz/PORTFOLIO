@@ -1,29 +1,22 @@
-.workContainer {
-
-    display: flex;
-    flex-wrap: wrap;
-    column-gap: 50px;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    padding: 20px;
 
     .work {
         display: flex;
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:100%;
         height: 250px;
-        width: 450px;
+        min-width: 40%;
         border-radius: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 20px;
         box-shadow: 0 15px 15px rgb(8, 8, 8);
-
+        transition: all ease .3s;
+        
         &:hover {
-            box-shadow: 2px 2px 7px rgba(170, 170, 170, 0.801);
+           
+            background-size: 103%;
         }
 
         .buttonSite {
@@ -39,7 +32,7 @@
 
             &:hover {
 
-                background: rgba(255, 255, 255, 0.2);
+                background: rgba(184, 155, 134,.65);
                 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
                 backdrop-filter: blur(5px);
                 -webkit-backdrop-filter: blur(5px);
@@ -51,20 +44,19 @@
         }
     }
 
-    .work1 {
+    .mercedesLlanos {
 
         background-image: url("src/resources/previewMercedesLlanos.jpeg");
     }
 
-    .work2 {
+    .zetaele {
         background-image: url("src/resources/previewZetaele.jpeg");
     }
 
-    .work3 {
+    .enterMining {
         background-image: url("src/resources/previewEnterMining.jpeg");
     }
 
-    .work4 {
+    .florenciaScannapieco {
         background-image: url("src/resources/previewFlorenciaScannapieco.jpeg");
     }
-}
