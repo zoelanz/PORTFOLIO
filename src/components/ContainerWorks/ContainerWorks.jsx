@@ -1,8 +1,9 @@
 import React from "react";
+import "./ContainerWorks.scss"
 
 function ContainerWorks({ children }) {
   return (
-    <div className="containerWorksImg">
+    <div>
       {children}
     </div>
   );

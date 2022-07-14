@@ -3,7 +3,7 @@ import "./AboutMe.scss";
 
 function AboutMe() {
   return (
-    <div className="containerAboutMe flash">
+    <div id="about" className="containerAboutMe flash">
       {/* <div className="containerHello">
         <p className="hello">Hello</p> */}
         {/* <a class="fancy" href="#">

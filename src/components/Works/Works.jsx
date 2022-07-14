@@ -4,18 +4,10 @@ import "./Works.scss";
 
 function Works() {
   return (
-    <div className="containerWorks">
-      
+    <div id="work" className="containerWorks">
       <ContainerWorks>
         <WorkCard />
-        <WorkCard />
       </ContainerWorks>
-
-      <ContainerWorks>
-        <WorkCard />
-        <WorkCard />
-      </ContainerWorks>
-
     </div>
   );
 }

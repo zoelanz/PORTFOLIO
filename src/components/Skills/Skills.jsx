@@ -9,7 +9,7 @@ import "./Skills.scss";
 
 function Skills() {
   return (
-    <div className="wrapper">
+    <div id="skills" className="wrapper">
 
       <div className="wrapper1">
 

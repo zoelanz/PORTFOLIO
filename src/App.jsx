@@ -1,6 +1,6 @@
 import Home from "./components/Home/Home";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import "./App.scss";
 import { useEffect } from "react";
@@ -27,6 +27,9 @@ function App() {
       <div class="cursor"></div>
         <Routes>
           <Route path="/" element={<Home />} />
+
+
+
         </Routes>
       </div>
     </BrowserRouter>

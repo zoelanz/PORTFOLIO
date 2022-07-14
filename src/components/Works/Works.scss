@@ -5,29 +5,5 @@
     justify-content: center;
     align-content: center;
     align-items: center;
-    padding: 8%;
-    row-gap: 50px;
-
-
-    .containerWorksImg {
-        width: 100%;
-        display: flex;
-        gap: 5%;
-        flex-wrap: wrap;
-        justify-content: center;
-
-
-        .work{
-            background-color: rgb(243, 237, 230);
-            background-position: left;
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 250px;
-            width: 40%;
-            min-width: 350px;
-            border-radius: 10px;
-        }
-
-      
-}
+    padding: 2%;
 }

@@ -9,24 +9,6 @@
     flex-direction: column;
     background-color: #141414;
 
-    .logo {
-        height: min-content;
-        width: 100%;
-        display: flex;
-        font-size: 25px;
-        font-family: helveticabold;
-        font-family: america;
-        font-weight: 100;
-        letter-spacing: 3px;
-        display: flex;
-        justify-content: flex-end;
-        padding: 15px;
-        color: white;
-        position: fixed;
-        left: 0%;
-        top: 0%;
-    }
-
     .home {
         background-image: url("../../resources/34d40d96149463.5ea8044941ea5.jpg");
         background-repeat: no-repeat;
@@ -41,6 +23,27 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        
+    .logo {
+        height: min-content;
+        width: 100%;
+        display: flex;
+        font-size: 25px;
+        font-family: helveticabold;
+        font-family: america;
+        font-weight: 100;
+        letter-spacing: 3px;
+        display: flex;
+        justify-content: flex-end;
+        padding: 15px;
+        color: rgb(255, 255, 255);
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        
+    }
+
 
         .name {
             font-family: america;
@@ -96,10 +99,6 @@
                 }
             }
 
-
-
-
-
             @keyframes name {
 
                 100% {
@@ -112,21 +111,21 @@
 
 
     }
+    .network {
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        padding-top: 20px;
+    
+        .linkedin {
+            padding: 10px;
+            color: white;
+        }
+    
+        .github {
+            padding: 10px;
+            color: white;
+        }
+    }
 }
 
-.network {
-    position: fixed;
-    left: 0%;
-    top: 0%;
-    padding-top: 20px;
-
-    .linkedin {
-        padding: 10px;
-        color: white;
-    }
-
-    .github {
-        padding: 10px;
-        color: white;
-    }
-}

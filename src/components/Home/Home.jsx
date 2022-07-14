@@ -13,10 +13,11 @@ import "animate.css";
 
 function Home() {
   return (
-    <div className="containerHome">
+    <div id="home" className="containerHome">
       <NavBar />
 
       <div className="home">
+
         <div className="logo">
           <p>ZL</p>
         </div>
@@ -31,7 +32,7 @@ function Home() {
           <p>I'M</p>
           <p className="nameAfter">ZOE LANZ</p>
         </div>
-
+        
       </div>
 
       <AboutMe />
